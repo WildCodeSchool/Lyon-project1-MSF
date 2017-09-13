@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+
 <!-----------------------NAVIGATION---------------------------------->
 <nav class="navbar navbar-inverse">
     <div class="container">

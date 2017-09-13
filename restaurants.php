@@ -12,7 +12,11 @@ include('header.php');
             <img class="img-thumbnail" src="http://img1.imagilive.com/0917/carte-restaurant69f.png" alt="">
         </section>
     </div>
+
     <!----------------------- END FRENCH CARTE---------------------------------->
+
+    <!----------------------- LIST OF RESTAURANTS------------------->
+
     <div class="row">
         <aside class=" col-xs-6 col-md-3">
             <h4>Bug Burger Bordeaux</h4>
@@ -114,28 +118,15 @@ include('header.php');
         </aside>
     </div>
 </div>
+<!-----------------------END OF LIST OF RESTAURANTS------------------->
 
 
-<!-----------------------FOOTER---------------------------------->
+<!-----------------------FOOTER ANS S CRIPT---------------------------------->
 
 <?php
 include('footer.php');
 ?>
+<!----------------------- END OF FOOTER ANS S CRIPT---------------------------------->
 
-</div>
-
-
-</div>
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-  hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-</body>
 
 </html>

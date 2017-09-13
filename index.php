@@ -1,8 +1,14 @@
+
+<!----------------------- HEADER AND NAV---------------------------------->
+
 <?php
 include('header.php');
 ?>
 
-<!----------------------- END NAVIGATION---------------------------------->
+<!----------------------- END OF HEADER AND NAV---------------------------------->
+
+
+<!----------------------- CONCEPT PRESENTATION---------------------------------->
 <div class="container">
     <div class="row">
         <div class="col-md-6 col-xs-12">
@@ -18,26 +24,14 @@ include('header.php');
         </div>
     </div>
 </div>
+<!-----------------------END OF CONCEPT PRESENTATION---------------------------------->
 
 
-<!-----------------------FOOTER---------------------------------->
+<!-----------------------FOOTER AND SCRIPTS---------------------------------->
 <?php
 include('footer.php');
 ?>
 
-
-</div>
-
-
-</div>
-
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-  hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>

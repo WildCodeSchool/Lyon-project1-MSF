@@ -1,7 +1,12 @@
+
+<!-----------------------HEADER AND NAV------------------->
+
 <?php
 include('header.php');
 ?>
+<!-----------------------END OF HEADER AND NAV------------------->
 
+<!-----------------------FAQ NAV------------------->
 
 <div class="title-faq">
     <h1>FAQ Bug Burger</h1>
@@ -37,10 +42,15 @@ include('header.php');
 <div class="signature">
     <p>L’équipe de Bug Burgers</p>
 </div>
+<!-----------------------END OF FAQ NAV------------------->
+
+
+<!-----------------------FOOTER------------------->
 
 <?php
 include('footer.php');
 ?>
+<!----------------------- END OF FOOTER------------------->
 
-</body>
+
 </html>
