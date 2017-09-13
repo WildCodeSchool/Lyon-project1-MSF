@@ -1,0 +1,41 @@
+$orange: #f8ba00;
+$grey: #000000;
+
+body {
+
+}
+
+#logo-flag {
+  width: 100%;
+}
+
+.navbar-inverse {
+  .navbar-nav {
+    li {
+      a {
+        color: #ffffff;
+      }
+    }
+  }
+  .navbar-brand {
+    width: 65px;
+    padding: 0px;
+  }
+}
+
+.imgRestaurant {
+  width: 80%;
+}
+
+#copyright {
+  background-color: $orange;
+    footer {
+      display: flex;
+      justify-content: center;
+      height: 50px;
+      margin: Opx;
+         img {
+          width: 50px;
+    }
+  }
+}
