@@ -1,0 +1,26 @@
+h1 {
+  font-family: 'Lobster', cursive; }
+
+#logo-flag {
+  width: 100%; }
+
+.navbar-inverse .navbar-nav li a {
+  color: #ffffff; }
+.navbar-inverse .navbar-brand {
+  width: 65px;
+  padding: 0px; }
+
+.imgRestaurant {
+  width: 80%; }
+
+#copyright {
+  background-color: #f8ba00; }
+  #copyright footer {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin: Opx; }
+    #copyright footer img {
+      width: 50px; }
+
+/*# sourceMappingURL=style.css.map */

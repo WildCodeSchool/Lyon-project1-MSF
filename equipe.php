@@ -1,3 +1,15 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<!----------------------- HEAD---------------------------------->
+<?php
+include('head.php');
+?>
+
+<!----------------------- END OF HEAD---------------------------------->
+
+
+<body>
 <!-----------------------HEADER AND NAV------------------->
 
 <?php
@@ -7,7 +19,7 @@ include('header.php');
 
 <!----------------------- PHOTOS EQUIPE ---------------------------------->
 
-<div class="container">
+<div class="container blockTop">
     <div class="row">
         <div class="photos col-xs-12 col-sm-4">
             <img src="https://wildcodeschool.fr/wp-content/uploads/2017/01/damien.jpg" alt="Damien" class="img-circle"
@@ -28,22 +40,12 @@ include('header.php');
 </div>
 
 
-<!-----------------------FOOTER---------------------------------->
+<!-----------------------FOOTER AND SCRIPT---------------------------------->
 <?php
 include('footer.php');
 ?>
-<!-----------------------FOOTER---------------------------------->
 
 
-<!-----------------------SCRIPTS---------------------------------->
-
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-  hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>

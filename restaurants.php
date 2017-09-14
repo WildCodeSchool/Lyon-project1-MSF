@@ -1,16 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<!----------------------- HEAD---------------------------------->
+<?php
+include('head.php');
+?>
+
+<!-----------------------END OF HEAD---------------------------------->
+
+
+<body>
+
+<!----------------------- NAVIGATION---------------------------------->
+
 <?php
 include('header.php');
 ?>
 
-<!----------------------- END NAVIGATION---------------------------------->
-<div class="container">
+<!----------------------- NAVIGATION---------------------------------->
+<div class="container blockTop">
     <!----------------------- FRENCH CARTE---------------------------------->
 
     <div class="row">
-        <section class="col-xs-12 col-md-8">
-            <h1>Bug Burger pres de chez vous :</h1>
-            <img class="img-thumbnail" src="http://img1.imagilive.com/0917/carte-restaurant69f.png" alt="">
-        </section>
+        <section class=" col-md-offset-2 col-md-8 col-xs-12">
+            <h1>Bug Burger près de chez vous :</h1>
+
+            <iframe width="100%" height="400px" frameBorder="1" src="http://umap.openstreetmap.fr/fr/map/carte-sans-nom_167173?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="http://umap.openstreetmap.fr/fr/map/carte-sans-nom_167173">Voir en plein écran</a></p>
+             </section>
     </div>
 
     <!----------------------- END FRENCH CARTE---------------------------------->
@@ -18,7 +33,7 @@ include('header.php');
     <!----------------------- LIST OF RESTAURANTS------------------->
 
     <div class="row">
-        <aside class=" col-xs-6 col-md-3">
+        <aside class=" col-xs-12 col-sm-6 col-md-3">
             <h4>Bug Burger Bordeaux</h4>
             <div class="thumbnail">
                 <img class=" imgRestaurant" src="https://goo.gl/GmQi1k">
@@ -30,7 +45,7 @@ include('header.php');
                 </div>
             </div>
         </aside>
-        <aside class=" col-xs-6 col-md-3">
+        <aside class=" col-xs-12 col-sm-6 col-md-3">
             <h4>Bug Burger Lille</h4>
             <div class="thumbnail">
                 <img class=" imgRestaurant" src="https://goo.gl/1BDsDd">
@@ -42,7 +57,7 @@ include('header.php');
                 </div>
             </div>
         </aside>
-        <aside class=" col-xs-6 col-md-3">
+        <aside class=" col-xs-12 col-sm-6 col-md-3">
             <h4>Bug Burger Orléans</h4>
             <div class="thumbnail">
                 <img class=" imgRestaurant" src="https://goo.gl/GSZxAN">
@@ -53,7 +68,7 @@ include('header.php');
                     </p>
                 </div>
         </aside>
-        <aside class=" col-xs-6 col-md-3">
+        <aside class=" col-xs-12 col-sm-6 col-md-3">
             <h4>Bug Burger Lyon</h4>
             <div class="thumbnail">
                 <img class=" imgRestaurant" src="https://goo.gl/in4bGq">
@@ -66,7 +81,7 @@ include('header.php');
         </aside>
     </div>
     <div class="row">
-        <aside class=" col-xs-6 col-md-3">
+        <aside class=" col-xs-12 col-sm-6 col-md-3">
             <h4>Bug Burger Paris</h4>
             <div class="thumbnail">
                 <img class=" imgRestaurant" src="https://goo.gl/1vwHrr">
@@ -78,7 +93,7 @@ include('header.php');
                 </div>
             </div>
         </aside>
-        <aside class=" col-xs-6 col-md-3">
+        <aside class=" col-xs-12 col-sm-6 col-md-3">
             <h4>Bug Burger Strasbourg</h4>
             <div class="thumbnail">
                 <img class=" imgRestaurant" src="https://goo.gl/Xh12Ek">
@@ -90,7 +105,7 @@ include('header.php');
                 </div>
             </div>
         </aside>
-        <aside class=" col-xs-6 col-md-3">
+        <aside class=" col-xs-12 col-sm-6 col-md-3">
             <h4>Bug Burger Toulouse</h4>
             <div class="thumbnail">
                 <img class=" imgRestaurant" src="https://goo.gl/MFKm5L">
@@ -102,7 +117,7 @@ include('header.php');
                 </div>
             </div>
         </aside>
-        <aside class=" col-xs-6 col-md-3">
+        <aside class=" col-xs-12 col-sm-6 col-md-3">
             <h4>La Loupe</h4>
             <div class="thumbnail">
                 <img class=" imgRestaurant" src="https://goo.gl/quNUey">
@@ -126,7 +141,6 @@ include('header.php');
 <?php
 include('footer.php');
 ?>
-<!----------------------- END OF FOOTER ANS S CRIPT---------------------------------->
 
-
+</body>
 </html>

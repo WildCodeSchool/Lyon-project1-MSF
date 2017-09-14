@@ -1,4 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<!----------------------- HEAD---------------------------------->
+<?php
+include('head.php');
+?>
+
+<!-----------------------END OF  HEAD---------------------------------->
+
+
+<body>
 
 <!-----------------------HEADER AND NAV------------------->
 <?php
@@ -9,10 +20,10 @@ include('header.php');
 
 
 <!-----------------------CONTACT INFOS------------------->
-
-<div class="row">
+<div class="container blockTop">
+<div class="row intro-form ">
     <h1>Contact</h1>
-    <p>Vous avez d'autres questions ?
+    <p>Vous avez d'autres questions ?<br />
     Vous souhaitez joindre le siège de notre compagnie Bug Burger situé à La Loupe ?</p>
     <p>Alors contactez nous au +33 6 19 34 42 37.</p>
     <p>Ou envoyez-nous un message avec le formulaire de contact ci-dessus :</p>
@@ -20,7 +31,7 @@ include('header.php');
 
 <!-----------------------CONTACT FORM------------------->
 <div class="row">
-    <div class="col-sm-8">
+    <div class=" col-sm-offset-2 col-sm-8">
         <form role="form" method="POST">
             <div class="row">
                 <div>
@@ -49,6 +60,7 @@ include('header.php');
         </form>
     </div>
     </div>
+</div>
 <!-----------------------END CONTACT FORM------------------->
 
 
@@ -58,5 +70,5 @@ include('header.php');
 include('footer.php');
 ?>
 <!----------------------- END OF FOOTER AND SCRIPT------------------->
-
+</body>
 </html>

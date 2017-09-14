@@ -1,4 +1,12 @@
+h1, h4 {
+  font-family: 'Lobster', cursive; }
+
+.blockTop {
+  margin-top: 100px;
+  min-height: 600px; }
+
 #logo-flag {
+  margin-top: 70px;
   width: 100%; }
 
 .navbar-inverse .navbar-nav li a {
@@ -7,9 +15,15 @@
   width: 65px;
   padding: 0px; }
 
-.imgRestaurant {
-  width: 80%; }
+/*--------------RESTAURANTS-------------*/
+.carte {
+  margin: auto; }
 
+.imgRestaurant {
+  width: 180px;
+  height: 90px; }
+
+/*--------------FOOTER-------------*/
 #copyright {
   background-color: #f8ba00; }
   #copyright footer {
@@ -19,5 +33,39 @@
     margin: Opx; }
     #copyright footer img {
       width: 50px; }
+
+/*--------------FORM-------------*/
+.form-groupe {
+  margin: auto;
+  width: 600px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em; }
+  .form-groupe div {
+    margin-top: 50px; }
+  .form-groupe .intro-form {
+    margin-left: 20%; }
+
+label {
+  font: 1em serif;
+  display: inline-block;
+  width: 80px;
+  text-align: right; }
+
+input, textarea {
+  font: 0.8em serif;
+  width: 400px;
+  border: 1px solid #CCCCCC; }
+
+input:focus, textarea:focus {
+  border-color: #000; }
+
+textarea {
+  vertical-align: top;
+  height: 100px;
+  resize: vertical; }
+
+.button {
+  padding-left: 90px; }
 
 /*# sourceMappingURL=style.css.map */
