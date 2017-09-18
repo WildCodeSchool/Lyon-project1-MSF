@@ -19,8 +19,9 @@ include('header.php');
 
 <!----------------------- PHOTOS EQUIPE ---------------------------------->
 
-<div class="container blockTop">
-    <div class="row">
+<div class="container blockTop back">
+    <h1>Notre équipe :</h1>
+    <div class="row yellow equipe">
         <div class="photos col-xs-12 col-sm-4">
             <img src="https://wildcodeschool.fr/wp-content/uploads/2017/01/damien.jpg" alt="Damien" class="img-circle"
                  height="200" width="200">

@@ -24,40 +24,83 @@ include('header.php');
 
 
 <!----------------------- CONCEPT PRESENTATION---------------------------------->
-<div class="container blockTop">
-    <div class="row">
-        <div class="col-md-6 col-xs-12">
-            <img id="logo-flag"src="http://img1.imagilive.com/0917/logobiofr.PNG" alt="bio et francais">
+<div class="container blockTop back">
+    <div class="row white">
+        <!--<div class="col-md-6 col-xs-12">
+            <img id="logo-flag" src="http://img1.imagilive.com/0917/logobiofr.PNG" alt="bio et francais">
+        </div>-->
+
+        <div class=" col-md-offset-2 col-md-8 col-xs-12">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img alt="" src="http://img1.imagilive.com/0917/Logobiofrench.jpg"></div>
+                    <div class="item"><img alt="photo" src="https://goo.gl/QaUt7p"></div>
+                    <div class="item"><img alt="photo" src="https://goo.gl/oGQKQR"></div>
+                    <div class="item"><img alt="photo" src="https://goo.gl/65UdLh"></div>
+                    <div class="item"><img alt="photo" src="https://goo.gl/SQ9FME"></div>
+                </div>
+                <a class="left carousel-control" href="#carousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+
+            </div>
         </div>
-        <div class="col-md-6 col-xs-12">
+    </div>
+
+    <div class="row white">
+        <div class="col-lg-offset-2 col-lg-8 col-xs-8">
             <article>
 
                 <h1>
                     Bug Burger, j’en fourmille d’envie !
                 </h1>
-                <h2>Concept  </h2>
-                <p>
-                    Ce type d’alimentation est déjà ancré dans la plupart des cultures aussi bien en Asie ou dans certaines contrées africaines. Les insectes sont l’avenir de la consommation des populations. Les variations de goûts sont notées selon la forme de chaque insecte, de sa couleur, de sa texture et la façon dont il est cuisiné. Ce qui ouvre un monde de possibilités à tester au plus vite chez Bug Burger !
 
-                </p>
-                <h2>Sain</h2>
-                <p>
-                    Nos insectes ne mangent que les meilleurs légumes et céréales, vivent agréablement et à leur rythme. Nous leur donnons tout simplement ce dont ils ont besoin, et nous le choisissons bien.
-
-                </p>
-                <h2>Local</h2>
-                <p>
-                    Élevés en France, nos grillons, nos vers de farine, nos sauterelles sont des produits du terroir.. Les gens du coin sont unanimes : ils vont très bien avec la viande et la salade..
-
-
-                </p>
-                <h2>100% naturel</h2>
-                <p>Vous pouvez les ins(p)ecter autant que vous voulez, nos insectes sont élevés par des passionnés et aucun produit artificiel n'est utilisé pour les faire grandir.
-                </p>
-
-            </article>
         </div>
     </div>
+    <div class=" row yellow">
+        <h2>Concept </h2>
+        <p>
+            Ce type d’alimentation est déjà ancré dans la plupart des cultures aussi bien en Asie ou
+            dans certaines contrées africaines. Les insectes sont l’avenir de la consommation des
+            populations. Les variations de goûts sont notées selon la forme de chaque insecte, de sa
+            couleur, de sa texture et la façon dont il est cuisiné. Ce qui ouvre un monde de
+            possibilités à tester au plus vite chez Bug Burger !
+        </p>
+    </div>
+
+    <div class="row white">
+
+        <h2>Sain</h2>
+        <p>
+            Nos insectes ne mangent que les meilleurs légumes et céréales, vivent agréablement et à leur
+            rythme. Nous leur donnons tout simplement ce dont ils ont besoin, et nous le choisissons
+            bien.
+
+        </p>
+    </div>
+    <div class="row yellow">
+
+        <h2>Local</h2>
+        <p>
+            Élevés en France, nos grillons, nos vers de farine, nos sauterelles sont des produits du
+            terroir.. Les gens du coin sont unanimes : ils vont très bien avec la viande et la salade..
+
+
+        </p>
+    </div>
+
+    <div class="row white">
+        <h2> <span class="glyphicon glyphicon-leaf"></span> 100% naturel</h2>
+        <p>Vous pouvez les ins(p)ecter autant que vous voulez, nos insectes sont élevés par des
+            passionnés et aucun produit artificiel n'est utilisé pour les faire grandir.
+        </p>
+    </div>
+    </article>
+</div>
 </div>
 <!-----------------------END OF CONCEPT PRESENTATION---------------------------------->
 

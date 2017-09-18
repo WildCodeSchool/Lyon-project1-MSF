@@ -10,16 +10,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <img class='navbar-brand' src="http://img1.imagilive.com/0917/Logo-blanc1b1.png" alt="logo">
+                    <img class='navbar-brand' src="http://img1.imagilive.com/0917/Logoreal.png" alt="logo">
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="index.php">Bug Burger</a></li>
                         <li><a href="plats.php">Nos Burgers</a></li>
                         <li><a href="restaurants.php">Nos Restaurants</a></li>
-                        <li><a href="equipe.php">l'équipe</a></li>
-                        <li><a href="faq.php">FAQ</a></li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="equipe.php">Notre Equipe</a></li>
+                        <li><a href="faq.php">Faq</a></li>
+                        <li><a href="contact.php">Contactez-nous</a></li>
                     </ul>
                 </div>
             </div>

@@ -1,0 +1,143 @@
+$orange: #f8ba00;
+$grey: #000000;
+$yellowbackground: rgba(241, 196, 15, 0.55);
+
+
+.back{
+  background-image: url(https://goo.gl/65UdLh);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+h1, h4 {
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.blockTop {
+  margin-top: 80px;
+  min-height: 600px;
+}
+
+.equipe{
+  margin-top: 100px;
+}
+
+#logo-flag {
+  width: 100%;
+}
+
+.yellow{
+  background-color: $yellowbackground;
+  padding:20px;
+}
+
+.white{
+  background-color: white;
+  padding:20px;
+}
+
+  /*--------------CAROUSSEL-------------*/
+ .carousel{
+   width: 100%;
+
+  .item {
+    width: 100%;
+    height: 360px;
+    img{
+      margin: auto;
+      max-height:360px;
+    }
+  }
+}
+
+
+/*--------------NAV BAR-------------*/
+
+.navbar-inverse {
+  .navbar-nav {
+    li {
+      a {
+        color: #ffffff;
+        font-family: 'Shadows Into Light Two', cursive;
+        font-size: 1.2em;
+      }
+      a:hover{
+        color: $orange;
+      }
+    }
+  }
+  .navbar-brand {
+    width: 65px;
+    padding: 0px;
+  }
+}
+
+/*--------------RESTAURANTS-------------*/
+
+.imgRestaurant {
+  width: 180px;
+  height: 90px;
+}
+
+/*--------------FOOTER-------------*/
+
+#copyright {
+  background-color: black;
+  footer {
+    color: $orange;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin: Opx;
+    img {
+      width: 50px;
+    }
+  }
+}
+
+/*--------------FORM-------------*/
+
+.form-groupe {
+  margin: auto;
+  width: 600px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  div {
+    margin-top: 50px;
+  }
+  .intro-form {
+    margin-left: 20%;
+  }
+
+}
+
+label {
+  font: 1em serif;
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+}
+
+input, textarea {
+  font: 0.8em serif;
+  width: 400px;
+  border: 1px solid #CCCCCC;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 100px;
+  resize: vertical;
+}
+
+.button {
+  padding-left: 90px;
+}

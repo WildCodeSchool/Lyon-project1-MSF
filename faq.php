@@ -19,7 +19,7 @@ include('header.php');
 
 
 <!-----------------------FAQ ------------------->
-<div class="container blockTop">
+<div class="container blockTop back">
 
     <div class="row">
         <div class="faq col-xs-12 col-sm-6">
@@ -31,7 +31,7 @@ include('header.php');
     </div>
 
 
-    <div class="row">
+    <div class="row yellow">
         <div class="faq col-xs-12 col-sm-6">
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="panel panel-default">

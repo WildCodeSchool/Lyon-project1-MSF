@@ -20,8 +20,8 @@ include('header.php');
 
 
 <!-----------------------CONTACT INFOS------------------->
-<div class="container blockTop">
-<div class="row intro-form ">
+<div class="container blockTop back">
+<div class="row intro-form yellow ">
     <h1>Contact</h1>
     <p>Vous avez d'autres questions ?<br />
     Vous souhaitez joindre le siège de notre compagnie Bug Burger situé à La Loupe ?</p>
@@ -30,7 +30,7 @@ include('header.php');
 </div>
 
 <!-----------------------CONTACT FORM------------------->
-<div class="row">
+<div class="row yellow">
     <div class=" col-sm-offset-2 col-sm-8">
         <form role="form" method="POST">
             <div class="row">

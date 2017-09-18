@@ -17,7 +17,7 @@ include('header.php');
 ?>
 
 <!----------------------- NAVIGATION---------------------------------->
-<div class="container blockTop">
+<div class="container blockTop back">
     <!----------------------- FRENCH CARTE---------------------------------->
 
     <div class="row">
@@ -32,7 +32,7 @@ include('header.php');
 
     <!----------------------- LIST OF RESTAURANTS------------------->
 
-    <div class="row">
+    <div class="row yellow">
         <aside class=" col-xs-12 col-sm-6 col-md-3">
             <h4>Bug Burger Bordeaux</h4>
             <div class="thumbnail">
@@ -80,7 +80,7 @@ include('header.php');
                 </div>
         </aside>
     </div>
-    <div class="row">
+    <div class="row yellow">
         <aside class=" col-xs-12 col-sm-6 col-md-3">
             <h4>Bug Burger Paris</h4>
             <div class="thumbnail">
