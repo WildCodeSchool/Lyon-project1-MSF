@@ -33,10 +33,10 @@ include('header.php');
     <!----------------------- LIST OF RESTAURANTS------------------->
 
     <div class="row yellow">
-        <aside class=" col-xs-12 col-sm-6 col-md-3">
+        <aside class="col-md-3 col-sm-6 col-xs-offset-3 col-xs-6  ">
             <h4>Bug Burger Bordeaux</h4>
             <div class="thumbnail">
-                <img class=" imgRestaurant" src="https://goo.gl/GmQi1k">
+                <img class="imgRestaurant" src="https://goo.gl/GmQi1k">
                 <div class="caption">
                     <p>
                         30 rue Mathieu, <br/>
@@ -45,10 +45,10 @@ include('header.php');
                 </div>
             </div>
         </aside>
-        <aside class=" col-xs-12 col-sm-6 col-md-3">
+        <aside class="col-md-3 col-sm-6 col-xs-offset-3 col-xs-6  ">
             <h4>Bug Burger Lille</h4>
             <div class="thumbnail">
-                <img class=" imgRestaurant" src="https://goo.gl/1BDsDd">
+                <img class="imgRestaurant" src="https://goo.gl/1BDsDd">
                 <div class="caption">
                     <p>
                         4 Avenue des Saules<br/>
@@ -57,10 +57,10 @@ include('header.php');
                 </div>
             </div>
         </aside>
-        <aside class=" col-xs-12 col-sm-6 col-md-3">
+        <aside class="col-md-3 col-sm-6 col-xs-offset-3 col-xs-6  ">
             <h4>Bug Burger Orléans</h4>
             <div class="thumbnail">
-                <img class=" imgRestaurant" src="https://goo.gl/GSZxAN">
+                <img class="imgRestaurant" src="https://goo.gl/GSZxAN">
                 <div class="caption">
                     <p>
                         1 Avenue du Champ de Mars<br/>
@@ -68,10 +68,10 @@ include('header.php');
                     </p>
                 </div>
         </aside>
-        <aside class=" col-xs-12 col-sm-6 col-md-3">
+        <aside class="col-md-3 col-sm-6 col-xs-offset-3 col-xs-6  ">
             <h4>Bug Burger Lyon</h4>
             <div class="thumbnail">
-                <img class=" imgRestaurant" src="https://goo.gl/in4bGq">
+                <img class="imgRestaurant" src="https://goo.gl/in4bGq">
                 <div class="caption">
                     <p>
                         17 rue Delandine<br/>
@@ -81,10 +81,10 @@ include('header.php');
         </aside>
     </div>
     <div class="row yellow">
-        <aside class=" col-xs-12 col-sm-6 col-md-3">
+        <aside class="col-md-3 col-sm-6 col-xs-offset-3 col-xs-6  ">
             <h4>Bug Burger Paris</h4>
             <div class="thumbnail">
-                <img class=" imgRestaurant" src="https://goo.gl/1vwHrr">
+                <img class="imgRestaurant" src="https://goo.gl/1vwHrr">
                 <div class="caption">
                     <p>
                         11 rue de Poissy<br/>
@@ -93,10 +93,10 @@ include('header.php');
                 </div>
             </div>
         </aside>
-        <aside class=" col-xs-12 col-sm-6 col-md-3">
+        <aside class="col-md-3 col-sm-6 col-xs-offset-3 col-xs-6  ">
             <h4>Bug Burger Strasbourg</h4>
             <div class="thumbnail">
-                <img class=" imgRestaurant" src="https://goo.gl/Xh12Ek">
+                <img class="imgRestaurant" src="https://goo.gl/Xh12Ek">
                 <div class="caption">
                     <p>
                         1 rue des Corps-de-Garde<br/>
@@ -105,10 +105,10 @@ include('header.php');
                 </div>
             </div>
         </aside>
-        <aside class=" col-xs-12 col-sm-6 col-md-3">
+        <aside class="col-md-3 col-sm-6 col-xs-offset-3 col-xs-6  ">
             <h4>Bug Burger Toulouse</h4>
             <div class="thumbnail">
-                <img class=" imgRestaurant" src="https://goo.gl/MFKm5L">
+                <img class="imgRestaurant" src="https://goo.gl/MFKm5L">
                 <div class="caption">
                     <p>
                         1 Place de la bourse <br/>
@@ -117,10 +117,10 @@ include('header.php');
                 </div>
             </div>
         </aside>
-        <aside class=" col-xs-12 col-sm-6 col-md-3">
+        <aside class="col-md-3 col-sm-6 col-xs-offset-3 col-xs-6  ">
             <h4>La Loupe</h4>
             <div class="thumbnail">
-                <img class=" imgRestaurant" src="https://goo.gl/quNUey">
+                <img class="imgRestaurant" src="https://goo.gl/quNUey">
                 <div class="caption">
                     <p>
                         Siège social<br />

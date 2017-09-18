@@ -4,7 +4,7 @@
 <container>
     <div  id = "copyright" class="row">
         <footer>
-            <p>Copyright WCS 2017</p>
+            <p>Copyright WCS 2017 <a href="mentions-legales.php">Mentions Légales</a></p>
         </footer>
     </div>
 </container>

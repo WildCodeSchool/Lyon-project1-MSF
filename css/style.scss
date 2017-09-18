@@ -3,6 +3,8 @@ $grey: #000000;
 $yellowbackground: rgba(241, 196, 15, 0.55);
 
 
+/*--------------GLOBAL STYLE-------------*/
+
 .back{
   background-image: url(https://goo.gl/65UdLh);
   background-repeat: no-repeat;
@@ -12,7 +14,7 @@ $yellowbackground: rgba(241, 196, 15, 0.55);
 }
 
 
-h1, h4 {
+h1, h2, h4 {
   font-family: 'Shadows Into Light Two', cursive;
 }
 
@@ -62,7 +64,7 @@ h1, h4 {
       a {
         color: #ffffff;
         font-family: 'Shadows Into Light Two', cursive;
-        font-size: 1.2em;
+        font-size: 1.5em;
       }
       a:hover{
         color: $orange;
@@ -140,4 +142,10 @@ textarea {
 
 .button {
   padding-left: 90px;
+}
+
+/*--------------MENTIONS LEGALES-------------*/
+
+.mention-legales{
+  padding: 20px;
 }

@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Mentions Legales</title>
-</head>
+
+<?php
+include('header.php');
+?>
+
 <body>
 
-<section class="mention-legales">
+
+<!----------------------- HEADER AND NAV---------------------------------->
+
+<?php
+include('header.php');
+?>
+
+<!----------------------- END OF HEADER AND NAV---------------------------------->
+
+
+<section class="mention-legales blockTop">
 
     <div class="droits">
-     <h2>GARANTIES ET RESPONSABILITE</h2>
+        <h1>Mentions Légales</h1>
+        <h2>GARANTIES ET RESPONSABILITE</h2>
         <p>Bug Burger a pris toutes les précautions d'usage pour assurer tant une fiabilité d'informations qu'un accès sécurisé à son site www.bug-burger.fr.<br/>
         Toutefois, Bug Burger ne peut, en aucun cas, garantif l'absence totale d'erreur matérielle, de déficience technique ou autre.<br/>
         De même, aucune garantie ne peut être fournie quant à la compatibilité du site à vos besoins et usages particuliers. Bug Burger ne saurait être tenu responsable d'un dommage quelconque lié à l'utilisation de son site, et dégage toute responsabilité quant aux informations contenues dans d'autres sites qui pourraient être liés au sien par un lien hypertexte ou tout autre moyen.</p>
@@ -30,20 +42,20 @@
     10 rue de l'Imagination BP 234<br/>
     12345 Hamburger Cedex France</p>
 
-    <p>Editeur du site : Petit Bateau SAS<br/>
+    <p>Editeur du site : Bug Burger SAS<br/>
     Adresse du siège social : 15, rue de La Loupe, La Loupe<br/>
-    N° de téléphone : 0 820 200 203 (du lundi au vendredi de 10h à 17h, coût : 0,09 € TTC/min)<br/>
-    N° RCS : 542 880 125 RCS Troyes<br/>
+    N° de téléphone : 0 000 000 00 (du lundi au vendredi de 9h à 18h, coût : 15,09 € TTC/min)<br/>
+    N° RCS : 542 880 125 RCS Hamburger<br/>
     Capital social : 13.263.824 €<br/>
-    N° de TVA : FR 08 542 880 125</p>
+    N° de TVA : FR ** *** *** *** **</p>
 
-    <p>Responsable de publication du site : Christel Hennion, Directrice Marketing Clients Digital</p>
+    <p>Responsables de publication du site : Marie, Simon et Marie, Développeurs WILDERS</p>
 
-    <p>Hébergeur du site : ALTIMA SAS au capital de 573 120 euros,<br/>
+    <p>Hébergeur du site : WILD CODE SCHOOL SAS au capital de *** *** euros,<br/>
     Siège social : 33, rue Dupleix, 59100 Roubaix<br/>
-    03 28 330 830<br/>
-    immatriculée au Registre du Commerce et des Sociétés de Roubaix-Tourcoing sous le numéro<br/>
-    B 411 780 687</p>
+    06 78 89 90 12<br/>
+    immatriculée au Registre du Commerce et des Sociétés de La Loupe sous le numéro<br/>
+    B 123 456 78</p>
 </div>
 
 <div class="date">
@@ -53,5 +65,11 @@
 
 </section>
 
+<!-----------------------FOOTER AND SCRIPTS---------------------------------->
+<?php
+include('footer.php');
+?>
+
 </body>
+
 </html>
