@@ -17,13 +17,14 @@ include('header.php');
 ?>
 
 <!----------------------- NAVIGATION---------------------------------->
-<div class="container blockTop back">
+<div class="container blockTop back3">
     <!----------------------- FRENCH CARTE---------------------------------->
 
     <div class="row">
-        <section class=" col-md-offset-2 col-md-8 col-xs-12">
+        <div class="row col-lg-offset-3 col-lg-6 col-xs-8 ">
             <h1>Bug Burger près de chez vous :</h1>
-
+        </div>
+        <section class=" col-md-offset-2 col-md-8 col-xs-12">
             <iframe width="100%" height="400px" frameBorder="1" src="http://umap.openstreetmap.fr/fr/map/carte-sans-nom_167173?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="http://umap.openstreetmap.fr/fr/map/carte-sans-nom_167173">Voir en plein écran</a></p>
              </section>
     </div>
@@ -33,9 +34,9 @@ include('header.php');
     <!----------------------- LIST OF RESTAURANTS------------------->
 
     <div class="row yellow">
-        <aside class="col-md-3 col-sm-6 col-xs-offset-3 col-xs-6  ">
-            <h4>Bug Burger Bordeaux</h4>
-            <div class="thumbnail">
+        <aside class="col-md-3 col-sm-4 col-xs-12">
+            <h3 class="title-white">Bug Burger Bordeaux</h3>
+            <div class="thumbnail white">
                 <img class="imgRestaurant" src="https://goo.gl/GmQi1k">
                 <div class="caption">
                     <p>
@@ -45,9 +46,9 @@ include('header.php');
                 </div>
             </div>
         </aside>
-        <aside class="col-md-3 col-sm-6 col-xs-offset-3 col-xs-6  ">
-            <h4>Bug Burger Lille</h4>
-            <div class="thumbnail">
+        <aside class="col-md-3 col-sm-4 col-xs-12">
+            <h3 class="title-white">Bug Burger Lille</h3>
+            <div class="thumbnail white">
                 <img class="imgRestaurant" src="https://goo.gl/1BDsDd">
                 <div class="caption">
                     <p>
@@ -57,9 +58,9 @@ include('header.php');
                 </div>
             </div>
         </aside>
-        <aside class="col-md-3 col-sm-6 col-xs-offset-3 col-xs-6  ">
-            <h4>Bug Burger Orléans</h4>
-            <div class="thumbnail">
+        <aside class="col-md-3 col-sm-4 col-xs-12">
+            <h3 class="title-white">Bug Burger Orléans</h3>
+            <div class="thumbnail white">
                 <img class="imgRestaurant" src="https://goo.gl/GSZxAN">
                 <div class="caption">
                     <p>
@@ -68,9 +69,9 @@ include('header.php');
                     </p>
                 </div>
         </aside>
-        <aside class="col-md-3 col-sm-6 col-xs-offset-3 col-xs-6  ">
-            <h4>Bug Burger Lyon</h4>
-            <div class="thumbnail">
+        <aside class="col-md-3 col-sm-4 col-xs-12">
+            <h3 class="title-white">Bug Burger Lyon</h3>
+            <div class="thumbnail white">
                 <img class="imgRestaurant" src="https://goo.gl/in4bGq">
                 <div class="caption">
                     <p>
@@ -79,11 +80,9 @@ include('header.php');
                     </p>
                 </div>
         </aside>
-    </div>
-    <div class="row yellow">
-        <aside class="col-md-3 col-sm-6 col-xs-offset-3 col-xs-6  ">
-            <h4>Bug Burger Paris</h4>
-            <div class="thumbnail">
+        <aside class="col-md-3 col-sm-4 col-xs-12">
+            <h3 class="title-white">Bug Burger Paris</h3>
+            <div class="thumbnail white">
                 <img class="imgRestaurant" src="https://goo.gl/1vwHrr">
                 <div class="caption">
                     <p>
@@ -93,9 +92,9 @@ include('header.php');
                 </div>
             </div>
         </aside>
-        <aside class="col-md-3 col-sm-6 col-xs-offset-3 col-xs-6  ">
-            <h4>Bug Burger Strasbourg</h4>
-            <div class="thumbnail">
+        <aside class="col-md-3 col-sm-4 col-xs-12">
+            <h3 class="title-white">Bug Burger Strasbourg</h3>
+            <div class="thumbnail white">
                 <img class="imgRestaurant" src="https://goo.gl/Xh12Ek">
                 <div class="caption">
                     <p>
@@ -105,9 +104,9 @@ include('header.php');
                 </div>
             </div>
         </aside>
-        <aside class="col-md-3 col-sm-6 col-xs-offset-3 col-xs-6  ">
-            <h4>Bug Burger Toulouse</h4>
-            <div class="thumbnail">
+        <aside class="col-md-3 col-sm-4 col-xs-12">
+            <h3 class="title-white">Bug Burger Toulouse</h3>
+            <div class="thumbnail white">
                 <img class="imgRestaurant" src="https://goo.gl/MFKm5L">
                 <div class="caption">
                     <p>
@@ -117,14 +116,13 @@ include('header.php');
                 </div>
             </div>
         </aside>
-        <aside class="col-md-3 col-sm-6 col-xs-offset-3 col-xs-6  ">
-            <h4>La Loupe</h4>
-            <div class="thumbnail">
+        <aside class="col-md-3 col-sm-4 col-xs-12">
+            <h3 class="title-white">La Loupe (siège social)</h3>
+            <div class="thumbnail white">
                 <img class="imgRestaurant" src="https://goo.gl/quNUey">
                 <div class="caption">
                     <p>
-                        Siège social<br />
-                        site d’élevage des insectes <br />
+                        Site d’élevage des insectes <br />
                         18 Rue de la gare, <br/>
                         28240 La Loupe
                     </p>

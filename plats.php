@@ -2,7 +2,7 @@
 <html lang="en">
 
 <?php
-include('header.php');
+include('head.php');
 ?>
 
 <body>
@@ -16,49 +16,50 @@ include('header.php');
 
 <!-----------------------BURGERS SLIDE------------------->
 
-<div class="container blockTop">
-
-    <h1>les plats du moment !</h1>
+<div class="container blockTop back2">
+    <div class="row col-lg-offset-4 col-lg-6 col-xs-12">
+        <h1>Les plats du moment !</h1>
+    </div>
     <div class="row">
-        <div class="photos col-xs-12  col-sm-6 col-md-4 yellow">
-            <a href="https://www.hostingpics.net/viewer.php?id=321869Burgerversbuffalo.jpg"><img
-                        src="https://img11.hostingpics.net/thumbs/mini_321869Burgerversbuffalo.jpg"
-                        alt="Burger aux vers" class="img-circle" height="200" width="200"></a>
-            <h4>Burger aux vers Buffalo</h4> <br/> <h5>“Riche en protéines et savoureux !”</h5>
-        </div>
-        <div class="photos col-xs-12 col-sm-6 col-md-4 white">
-            <a href="https://www.hostingpics.net/viewer.php?id=386283burgergrillons.jpg"><img
-                        src="https://img11.hostingpics.net/thumbs/mini_386283burgergrillons.jpg"
-                        alt="Burger aux grillons" class="img-circle" height="200" width="200"></a>
-            <h4>Burger aux grillons</h4> <br/> <h5>“Miam - croustillant !”</h5>
-        </div>
-
-        <div class="photos col-xs-12 col-sm-6 col-md-4 yellow">
-            <a href="https://www.hostingpics.net/viewer.php?id=283876Tacosversfarine.jpg"><img
-                        src="https://img11.hostingpics.net/thumbs/mini_283876Tacosversfarine.jpg" alt="Tacos aux vers"
-                        class="img-circle" height="200" width="200"></a>
-            <h4>Tacos aux vers de farine</h4> <br/> <h5>“Des insectes à la mexicaine !”</h5>
-        </div>
+        <div class="photos col-xs-12  col-sm-6 col-md-4 yellow-opaque">
+            <img src="https://goo.gl/SQ9FME" alt="Burger aux vers" class="img-circle" height="200" width="200">
+            <h2 class="white">Burger aux vers Buffalo</h2> <br/>
+            <h4>“Riche en protéines, savoureux !”</h4>
+            </div>
 
         <div class="photos col-xs-12 col-sm-6 col-md-4 white">
-            <a href="https://www.hostingpics.net/viewer.php?id=335351Sauterellesfrites.jpg"><img
-                        src="https://img11.hostingpics.net/thumbs/mini_335351Sauterellesfrites.jpg"
-                        alt="Sauterelles frites" class="img-circle" height="200" width="200"></a>
-            <h4>Sauterelles frites</h4> <br/> <h5>“Piquantes et bien épicées!”</h5>
+            <img src="https://img11.hostingpics.net/thumbs/mini_386283burgergrillons.jpg" alt="Burger aux grillons"
+                 class="img-circle" height="200" width="200">
+            <h2 class ="title-white yellow-opaque">Burger aux grillons !!</h2> <br/>
+            <h4>“Miam - croustillant !”</h4>
         </div>
 
-        <div class="photos col-xs-12 col-sm-6 col-md-4 yellow">
-            <a href="https://www.hostingpics.net/viewer.php?id=952207Saladesauterelles.jpg"><img
-                        src="https://img11.hostingpics.net/thumbs/mini_952207Saladesauterelles.jpg"
-                        alt="Salade aux sauterelles" class="img-circle" height="200" width="200"></a>
-            <h4>Salade aux sauterelles</h4> <br/> <h5>“Fraîche et croustillante !”</h5>
+        <div class="photos col-xs-12 col-sm-6 col-md-4 yellow-opaque">
+            <img src="http://media1.santabanta.com/full1/Fare/Snacks/snacks-20a.jpg" alt="Tacos aux vers"
+                 class="img-circle" height="200" width="200">
+            <h2 class="white" >Tacos aux vers de farine</h2> <br/>
+            <h4>“Des insectes à la mexicaine !”</h4>
         </div>
 
         <div class="photos col-xs-12 col-sm-6 col-md-4 white">
-            <a href="https://www.hostingpics.net/viewer.php?id=326373burgersauterelles.jpg"><img
-                        src="https://img11.hostingpics.net/thumbs/mini_326373burgersauterelles.jpg"
-                        alt="Burger aux sauterelles" class="img-circle" height="200" width="200"></a>
-            <h4>Burger aux sauterelles</h4> <br/> <h5>“Nouvelle recette, a essayer !”</h5>
+            <img src="https://img11.hostingpics.net/thumbs/mini_335351Sauterellesfrites.jpg"
+                 alt="Sauterelles frites" class="img-circle" height="200" width="200">
+            <h2 class ="title-white yellow-opaque">Criquets frits !!</h2> <br/>
+            <h4>“Piquantes et bien épicées!”</h4>
+        </div>
+
+        <div class="photos col-xs-12 col-sm-6 col-md-4 yellow-opaque">
+            <img src="https://www.insectecomestiblebio.com/wp-content/uploads/2014/08/insectes-comestibles-bio-poudre-proteines-elevage-manger-vente-acheter-liste-vers-de-bambou.jpg"
+                 alt="Salade aux sauterelles" class="img-circle" height="200" width="200">
+            <h2 class="white">Salade aux sauterelles</h2> <br/>
+            <h4>“Fraîche et croustillante !”</h4>
+        </div>
+
+        <div class="photos col-xs-12 col-sm-6 col-md-4 white">
+            <img src="https://img11.hostingpics.net/thumbs/mini_326373burgersauterelles.jpg"
+                 alt="Burger aux sauterelles" class="img-circle" height="200" width="200">
+            <h2 class ="title-white yellow-opaque">Burger aux sauterelles</h2> <br/>
+            <h4>“Nouvelle recette, a essayer !”</h4>
         </div>
     </div>
 </div>

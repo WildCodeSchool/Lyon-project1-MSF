@@ -18,47 +18,48 @@ include('header.php');
 <!-----------------------END OF HEADER AND NAV------------------->
 
 
-
 <!-----------------------CONTACT INFOS------------------->
-<div class="container blockTop back">
-<div class="row intro-form yellow ">
-    <h1>Contact</h1>
-    <p>Vous avez d'autres questions ?<br />
-    Vous souhaitez joindre le siège de notre compagnie Bug Burger situé à La Loupe ?</p>
-    <p>Alors contactez nous au +33 6 19 34 42 37.</p>
-    <p>Ou envoyez-nous un message avec le formulaire de contact ci-dessus :</p>
-</div>
+<div class="container blockTop back2">
 
-<!-----------------------CONTACT FORM------------------->
-<div class="row yellow">
-    <div class=" col-sm-offset-2 col-sm-8">
-        <form role="form" method="POST">
-            <div class="row">
-                <div>
-                    <div class="form-group">
-                        <label for="name">Nom</label>
-                        <input type="text" id="name" name="name">
-                    </div>
-                </div>
-                <div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
-                    </div>
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="subject">Sujet</label>
-                <input type="text" id="subjectTXT" name="subjectTXT">
-            </div>
-            <div class="form-group">
-                <label for="messageTXT">Message</label>
-                <textarea cols="36" rows="8" id="messageTXT" name="messageTXT"></textarea>
-            </div>
-            <!--BUTTON-->
-            <button type="submit"  id="submitBTN" name="submitBTN"><span class="glyphicon glyphicon-send"></span>Envoyer</button>
-        </form>
+    <div class="titre">
+        <h1>Contactez-nous :</h1>
     </div>
+
+
+
+    <!-----------------------CONTACT FORM------------------->
+    <div class="row ">
+        <div class=" col-sm-offset-2 col-sm-8 yellow">
+            <div class="row message-de-bug-burger">
+                <p>Vous avez d'autres questions ?<br/>
+                    Vous souhaitez joindre le siège de notre compagnie Bug Burger situé à La Loupe ?</p>
+                <p>Alors contactez nous au +33 6 19 34 42 37.</p>
+                <p>Ou envoyez-nous un message avec le formulaire de contact ci-dessus :</p>
+            </div>
+
+            <form role="form" method="POST">
+                <div class="row">
+                    <div>
+                        <div class="form-group">
+                            <label for="name"></label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Votre nom">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="form-group">
+                            <label for="email"></label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Votre email">
+                        </div>
+                    </div>
+                </div>
+                 <div class="form-group">
+                    <label for="messageTXT"></label>
+                    <textarea cols="36" rows="8" class="form-control" id="messageTXT" name="messageTXT" placeholder="Votre message"></textarea>
+                </div>
+                <!--BUTTON-->
+                <button type="submit" id="submitBTN" name="submitBTN"><span class="glyphicon glyphicon-send"></span> Envoyer</button>
+            </form>
+        </div>
     </div>
 </div>
 <!-----------------------END CONTACT FORM------------------->

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <?php
-include('header.php');
+include('head.php');
 ?>
 
 <body>
@@ -49,7 +49,7 @@ include('header.php');
     Capital social : 13.263.824 €<br/>
     N° de TVA : FR ** *** *** *** **</p>
 
-    <p>Responsables de publication du site : Marie, Simon et Marie, Développeurs WILDERS</p>
+    <p>Responsables de publication du site : Fanny, Simon et Marie, Développeurs WILDERS</p>
 
     <p>Hébergeur du site : WILD CODE SCHOOL SAS au capital de *** *** euros,<br/>
     Siège social : 33, rue Dupleix, 59100 Roubaix<br/>

@@ -19,15 +19,12 @@ include('header.php');
 
 
 <!-----------------------FAQ ------------------->
-<div class="container blockTop back">
+<div class="container blockTop back1">
 
     <div class="row">
-        <div class="faq col-xs-12 col-sm-6">
-            <div class="title-faq">
-
+            <div class="titre">
                 <h1>FAQ Bug Burger</h1>
             </div>
-        </div>
     </div>
 
 
@@ -130,10 +127,11 @@ include('header.php');
                     <p>“Si toutefois vous n’avez pas trouvé la réponse à vos questions, nous vous invitons à visiter la
                         page "Contact" dans la barre de menu. Nous serons ravis de répondre à toutes vos questions sur
                         nos délicieux “Bug’s Burgers” !</p>
-                </div>
-                <div class="signature">
                     <p>L’équipe de Bug Burgers</p>
                 </div>
+
+
+
             </div>
         </div>
     </div>
