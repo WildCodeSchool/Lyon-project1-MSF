@@ -14,12 +14,12 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.php">Bug Burger</a></li>
-                        <li><a href="plats.php">Nos Burgers</a></li>
-                        <li><a href="restaurants.php">Nos Restaurants</a></li>
-                        <li><a href="equipe.php">Notre Equipe</a></li>
-                        <li><a href="faq.php">Faq</a></li>
-                        <li><a href="contact.php">Contactez-nous</a></li>
+                        <li><a href="/bug_burger/index.php">Bug Burger</a></li>
+                        <li><a href="/bug_burger/pages/plats.php">Nos Burgers</a></li>
+                        <li><a href="/bug_burger/pages/restaurants.php">Nos Restaurants</a></li>
+                        <li><a href="/bug_burger/pages/equipe.php">Notre Equipe</a></li>
+                        <li><a href="/bug_burger/pages/faq.php">Faq</a></li>
+                        <li><a href="/bug_burger/pages/contact.php">Contactez-nous</a></li>
                     </ul>
                 </div>
             </div>

@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<?php
-include('head.php');
-?>
-
+<head>
+    <meta charset="UTF-8">
+    <title>Mentions légales</title>
+    <?php
+    include('../include/head.php');
+    ?>
+</head>
 <body>
 
-
-<!----------------------- HEADER AND NAV---------------------------------->
-
 <?php
-include('header.php');
+include('../include/header.php');
 ?>
 
-<!----------------------- END OF HEADER AND NAV---------------------------------->
-
-
 <section class="mention-legales blockTop">
-
     <div class="droits">
         <h1>Mentions Légales</h1>
         <h2>GARANTIES ET RESPONSABILITE</h2>
@@ -57,19 +52,20 @@ include('header.php');
     immatriculée au Registre du Commerce et des Sociétés de La Loupe sous le numéro<br/>
     B 123 456 78</p>
 </div>
-
 <div class="date">
     <p>Site : www.bug-burger.fr<br/>
         Mise en ligne le 15 septembre 2017</p>
 </div>
-
 </section>
-
-<!-----------------------FOOTER AND SCRIPTS---------------------------------->
-<?php
-include('footer.php');
-?>
-
+<footer>
+    <?php
+    include('../include/footer.php');
+    ?>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-  hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 </body>
-
 </html>

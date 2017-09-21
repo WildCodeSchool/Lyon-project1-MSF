@@ -1,33 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!----------------------- HEAD---------------------------------->
-<?php
-include('head.php');
-?>
-
-<!-----------------------END OF HEAD---------------------------------->
-
-
+<head>
+    <meta charset="UTF-8">
+    <title>Faq</title>
+    <?php
+    include('../include/head.php');
+    ?>
+</head>
 <body>
-<!-----------------------HEADER AND NAV------------------->
 
 <?php
-include('header.php');
+include('../include/header.php');
 ?>
-<!-----------------------END OF HEADER AND NAV------------------->
-
 
 <!-----------------------FAQ ------------------->
-<div class="container blockTop back1">
-
+<section class="container blockTop back1">
     <div class="row">
-            <div class="titre">
-                <h1>FAQ Bug Burger</h1>
-            </div>
+        <div class="titre">
+            <h1>FAQ Bug Burger</h1>
+        </div>
     </div>
-
-
     <div class="row yellow">
         <div class="faq col-xs-12 col-sm-6">
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -118,7 +110,6 @@ include('header.php');
                 </div>
             </div>
         </div>
-
         <div class="container">
             <div class="row">
                 <div class="faq col-xs-12 col-sm-6">
@@ -129,22 +120,20 @@ include('header.php');
                         nos délicieux “Bug’s Burgers” !</p>
                     <p>L’équipe de Bug Burgers</p>
                 </div>
-
-
-
             </div>
         </div>
     </div>
-</div>
-</div>
+</section>
 <!-----------------------END OF FAQ ------------------->
-
-
-<!-----------------------FOOTER AND SCRIPT------------------->
-
-<?php
-include('footer.php');
-?>
-
+<footer>
+    <?php
+    include('../include/footer.php');
+    ?>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-  hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 </body>
 </html>
