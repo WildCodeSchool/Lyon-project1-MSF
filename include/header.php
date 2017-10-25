@@ -10,7 +10,9 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <img class='navbar-brand' src="http://img1.imagilive.com/0917/Logoreal.png" alt="logo">
+                    <a href="/bug_burger/index.php">
+                        <img class='navbar-brand' src="http://img1.imagilive.com/0917/Logoreal.png" alt="logo">
+                    </a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">

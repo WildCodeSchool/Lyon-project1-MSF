@@ -25,7 +25,7 @@ include('../include/header.php');
                 <p>Alors contactez nous au +33 6 19 34 42 37.</p>
                 <p>Ou envoyez-nous un message avec le formulaire de contact ci-dessous :</p>
             </div>
-            <form role="form" method="POST">
+            <form action="../index.php" role="form" method="POST">
                 <div class="row">
                     <div>
                         <div class="form-group">
@@ -46,7 +46,7 @@ include('../include/header.php');
                               placeholder="Votre message"></textarea>
                 </div>
                 <!--BUTTON-->
-                <button type="submit" id="submitBTN" name="submitBTN"><span class="glyphicon glyphicon-send"></span>
+                <button type="submit" id="submitBTN" name="submitBTN" disabled="disabled"><span class="glyphicon glyphicon-send"></span>
                     Envoyer
                 </button>
             </form>
